@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: User guide / 使用指南
+    url: https://cs.betterone.top/manual
+    about: Installation, binding, protocols, licensing and troubleshooting. / 安装、绑定、协议、授权和故障排查。
+  - name: Purchases and licenses / 购买与授权
+    url: mailto:support@betterone.top
+    about: Questions about orders, activation codes and renewals. / 订单、激活码和续期相关的问题。
+  - name: Security problem / 安全问题
+    url: https://github.com/betteronetop/console-server-public/blob/main/SECURITY.md
+    about: Report privately by email, not in a public issue. / 请发邮件私下报告，不要公开提交。

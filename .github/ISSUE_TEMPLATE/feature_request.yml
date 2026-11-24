@@ -1,0 +1,24 @@
+name: Feature request / 功能建议
+description: Something you would like the software to do. / 希望软件增加的功能。
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do? / 你想完成什么？
+      description: The task or situation, not the solution yet. / 先说要完成的事情或遇到的情况，不必先给方案。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How would you like it to work? / 你希望它怎么工作？
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today? / 现在是怎么做的？
+  - type: input
+    id: version
+    attributes:
+      label: Version / 版本
+      description: Output of `betterone-cs --version`, if you use it already. / 如果已经在用，填 `betterone-cs --version` 的输出。
